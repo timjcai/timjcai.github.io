@@ -70,6 +70,7 @@ a {
   padding: 10px;
   border-radius: 5px;
   box-shadow: 5px 5px rgba(0, 0, 0, 1);
+  text-decoration: none;
 }
 
 a:hover {
@@ -77,6 +78,18 @@ a:hover {
   background-color: #9F73AB;
 }
 
-.para-w-margin-top {
+.w-margin-top {
   margin-top: 50px;
+}
+
+.w-margin-bottom{
+  margin-bottom: 50px;
+}
+
+#about-me {
+  padding-bottom: 50px;
+}
+
+p{
+  font-size: 22px;
 }
