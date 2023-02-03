@@ -50,6 +50,7 @@ img {
 }
 
 .blue-card {
+  padding: 50px;
   background-color: #A0C3D2;
   margin: 50px;
   border: 25px;
@@ -74,4 +75,8 @@ a {
 a:hover {
   color: white;
   background-color: #9F73AB;
+}
+
+.para-w-margin-top {
+  margin-top: 50px;
 }
