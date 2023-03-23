@@ -1,0 +1,113 @@
+@media (min-width: 320px) {
+  .heading {
+    display: flex;
+    justify-content: center;
+  }
+
+  .header {
+    display: flex;
+    flex: 1;
+    flex-direction: column-reverse;
+    margin-bottom: 100px;
+  }
+
+  .header.image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+  }
+
+  .profilepic {
+    width: 320px;
+    height: 448px;
+    align-self: center;
+  }
+
+  .header.description {
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+
+  .icons {
+    color: #14151c;
+  }
+
+  .socials-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+  }
+
+  .socials-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #14151C;
+    border-radius: 5px;
+    padding: 5px;
+    width: 90px;
+    margin-right: 10px;
+  }
+
+  .socials-item:hover {
+    background-color: #E9C07D;
+    font-weight: 600;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    max-width: 740px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 150px;
+  }
+
+  .heading {
+    justify-content: center;
+  }
+
+  .header.image {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+  }
+
+  .header.description {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 60%;
+  }
+
+  .socials-item {
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    width: 968px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 80px;
+    padding-left: 80px;
+  }
+
+  .socials-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #14151C;
+    border-radius: 5px;
+    padding: 5px;
+    width: 90px;
+    margin-right: 10px;
+  }
+}
