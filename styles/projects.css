@@ -36,18 +36,23 @@
     color: #14151c;
   }
 
-  .progress-btn {
+  .progress-btn, .repo-btn {
     display: flex;
     justify-content: space-around;
     align-items: center;
     border: 1px solid #14151C;
     box-shadow: 2px 2px 2px #14151C;
     border-radius: 5px;
-    width: 90px;
+    width: auto;
     height: 35px;
+    text-decoration: none;
   }
 
-  .progress-btn:hover {
+  .repo-btn {
+    width: 40vw;
+  }
+
+  .progress-btn:hover, .repo-btn:hover  {
     background-color: #E9C07D;
     box-shadow: 4px 4px 4px #6A7288;
     transition: 0.3s;
@@ -91,10 +96,6 @@
   .column-ri {
     display: flex;
     flex-direction: row-reverse;
-  }
-
-  .progress-btn.right{
-    align-self: self-end;
   }
 
   .pimage {
