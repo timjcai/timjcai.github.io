@@ -33,6 +33,7 @@
 
   .icons {
     color: #14151c;
+    background-color: inherit;
   }
 
   .socials-wrapper {
@@ -42,24 +43,30 @@
     flex-wrap: wrap;
   }
 
+  .link-wrapper {
+    text-decoration: none;
+  }
+
   .socials-item {
     display: flex;
     justify-content: space-around;
     align-items: center;
     border: 1px solid #14151C;
+    box-shadow: 2px 2px 2px #14151C;
     border-radius: 5px;
     padding: 5px;
     width: 90px;
     margin-right: 10px;
+    margin-bottom: 5px;
   }
 
   .socials-item:hover {
     background-color: #E9C07D;
+    box-shadow: 4px 4px 4px #6A7288;
+    transition: 0.3s;
     font-weight: 600;
   }
 }
-
-
 
 @media screen and (min-width: 768px) {
   .header {
