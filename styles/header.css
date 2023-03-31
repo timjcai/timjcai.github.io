@@ -8,7 +8,7 @@
     display: flex;
     flex: 1;
     flex-direction: column-reverse;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
 
   .himage {
@@ -49,7 +49,7 @@
 
   .socials-item {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     border: 1px solid #14151C;
     box-shadow: 2px 2px 2px #14151C;
