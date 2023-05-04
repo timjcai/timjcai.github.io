@@ -9,10 +9,12 @@
 
   .column-li {
     margin-bottom: 50px;
+    gap: 20px;
   }
 
   .column-ri {
     margin-bottom: 50px;
+    gap: 20px;
   }
 
   .pimage {
@@ -90,7 +92,6 @@
   .column-li {
     display: flex;
     flex-direction: row;
-    margin-bottom: 100px;
   }
 
   .column-ri {
